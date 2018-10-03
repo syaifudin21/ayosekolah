@@ -1,0 +1,8 @@
+[17-Jul-2018 04:39:06 UTC] PHP Warning:  Uncaught exception 'ErrorException' with message 'require(/home/smawahas/public_html/wahasmodel/vendor/composer/../../app/Helper/tambahan.php): failed to open stream: No such file or directory' in /home/smawahas/public_html/wahasmodel/vendor/composer/autoload_real.php:66
+Stack trace:
+#0 /home/smawahas/public_html/wahasmodel/vendor/composer/autoload_real.php(66): Composer\Util\ErrorHandler::handle(2, 'require(/home/s...', '/home/smawahas/...', 66, Array)
+#1 /home/smawahas/public_html/wahasmodel/vendor/composer/autoload_real.php(66): composerRequireedcc27c6279efa56c70dc766fad55bf0()
+#2 /home/smawahas/public_html/wahasmodel/vendor/composer/autoload_real.php(56): composerRequireedcc27c6279efa56c70dc766fad55bf0('3f3712de114a98a...', '/home/smawahas/...')
+#3 /home/smawahas/public_html/wahasmodel/vendor/autoload.php(7): ComposerAutoloaderInitedcc27c6279efa56c70dc766fad55bf0::getLoader()
+#4 /home/smawahas/public_html/wahasmodel/vendor/laravel/framework/src/Illuminate/Foundation/ComposerScripts.php(30): require_once(' in /home/smawahas/public_html/wahasmodel/vendor/composer/autoload_real.php on line 66
+[17-Jul-2018 04:39:06 UTC] PHP Fatal error:  composerRequireedcc27c6279efa56c70dc766fad55bf0(): Failed opening required '/home/smawahas/public_html/wahasmodel/vendor/composer/../../app/Helper/tambahan.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/smawahas/public_html/wahasmodel/vendor/composer/autoload_real.php on line 66
